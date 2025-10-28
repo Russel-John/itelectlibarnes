@@ -36,32 +36,52 @@
         <div class="content-section">
             <div class="features-grid">
                 <div class="feature-item">
-                    <h3>Elegant Syntax</h3>
-                    <p>Clean, expressive code that's easy to read and maintain</p>
+                    <img src="{{ asset('Images/img1.jpg') }}" alt="Gallery Image 1" class="gallery-img">
                 </div>
                 <div class="feature-item">
-                    <h3>Blade Templates</h3>
-                    <p>Powerful templating engine for dynamic content</p>
+                    <img src="{{ asset('Images/img2.jpg') }}" alt="Gallery Image 2" class="gallery-img">
                 </div>
                 <div class="feature-item">
-                    <h3>Eloquent ORM</h3>
-                    <p>Beautiful ActiveRecord implementation for database operations</p>
+                    <img src="{{ asset('Images/img3.jpg') }}" alt="Gallery Image 3" class="gallery-img">
                 </div>
                 <div class="feature-item">
-                    <h3>Routing</h3>
-                    <p>Simple, expressive routing system</p>
+                    <img src="{{ asset('Images/img4.jpg') }}" alt="Gallery Image 4" class="gallery-img">
                 </div>
                 <div class="feature-item">
-                    <h3>Authentication</h3>
-                    <p>Built-in authentication and authorization</p>
+                    <img src="{{ asset('Images/img5.jpg') }}" alt="Gallery Image 5" class="gallery-img">
                 </div>
                 <div class="feature-item">
-                    <h3>Artisan CLI</h3>
-                    <p>Command-line tool for common tasks</p>
+                    <img src="{{ asset('Images/img6.jpg') }}" alt="Gallery Image 6" class="gallery-img">
+                </div>
+                <div class="feature-item">
+                    <img src="{{ asset('Images/img7.jfif') }}" alt="Gallery Image 7" class="gallery-img">
+                </div>
+                <div class="feature-item">
+                    <img src="{{ asset('Images/img8.jfif') }}" alt="Gallery Image 8" class="gallery-img">
+                </div>
+                <div class="feature-item">
+                    <img src="{{ asset('Images/img9.jfif') }}" alt="Gallery Image 9" class="gallery-img">
+                </div>
+                <div class="feature-item">
+                    <img src="{{ asset('Images/img10.jfif') }}" alt="Gallery Image 10" class="gallery-img">
+                </div>
+                <div class="feature-item">
+                    <img src="{{ asset('Images/img11.jfif') }}" alt="Gallery Image 11" class="gallery-img">
+                </div>
+                <div class="feature-item">
+                    <img src="{{ asset('Images/img12.jfif') }}" alt="Gallery Image 12" class="gallery-img">
+                </div>
+                <div class="feature-item">
+                    <img src="{{ asset('Images/img13.jpg') }}" alt="Gallery Image 13" class="gallery-img">
+                </div>
+                <div class="feature-item">
+                    <img src="{{ asset('Images/img14.jpg') }}" alt="Gallery Image 14" class="gallery-img">
+                </div>
+                <div class="feature-item">
+                    <img src="{{ asset('Images/img15.png') }}" alt="Gallery Image 15" class="gallery-img">
                 </div>
             </div>
         </div>
     </div>
-
 </body>
 </html>
