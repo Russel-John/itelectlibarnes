@@ -49,7 +49,7 @@
                 <p>Email: johnrussellibarnes2@gmail.com</p>
                 <p>Phone: +63 995 101 8280</p>
                 <p>Facebook: <a href="https://www.facebook.com/JRlibarnes/" target="_blank" rel="noopener" style="color:#ff0080;">facebook.com/JRlibarnes/</a></p>
-                <p>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener" style="color:#ff0080;">github.com/yourusername</a></p>
+                <p>GitHub: <a href="https://github.com/Russel-John" target="_blank" rel="noopener" style="color:#ff0080;">github.com/Russel-John</a></p>
                 <p>Location: Cebu, Philippines</p>
             </div>
         </section>
