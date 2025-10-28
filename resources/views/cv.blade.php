@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
-    <title>John Russel - Laravel Guide</title>
+    <title>Curriculum Vitae</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -19,8 +19,8 @@
                 <span class="logo-text">John Russel</span>
             </a>
             <ul class="nav-links">
+                <li><a href="home">Home</a></li>
                 <li><a href="gallery">Gallery</a></li>
-                <li><a href="cv">CV</a></li>
             </ul>
         </div>
     </nav>
@@ -78,73 +78,8 @@
 
         <div class="content-section">
             <h2 class="section-title">🔧 How to Setup Laravel using Composer</h2>
-            
             <div class="setup-steps">
-                <div class="step">
-                    <h3>Install Prerequisites</h3>
-                    <p>Before installing Laravel, make sure you have the following installed on your system:</p>
-                    <ul style="margin-left: 2rem; margin-top: 1rem; line-height: 2;">
-                        <li>PHP (version 8.1 or higher)</li>
-                        <li>Composer (PHP dependency manager)</li>
-                        <li>Node.js and NPM (for frontend assets)</li>
-                        <li>MySQL or PostgreSQL database</li>
-                    </ul>
-                </div>
-
-                <div class="step">
-                    <h3>Install Composer</h3>
-                    <p>Download and install Composer from <span class="highlight">getcomposer.org</span>. 
-                    Verify installation by running:</p>
-                    <div class="code-block">
-                        <code>composer -v</code>
-                    </div>
-                </div>
-
-                <div class="step">
-                    <h3>Create a New Laravel Project</h3>
-                    <p>Use Composer to create a new Laravel project:</p>
-                    <div class="code-block">
-                        <code>composer create-project laravel/laravel my-project</code>
-                    </div>
-
-                    
-                </div>
-
-                <div class="step">
-                    <h3>Configure Environment</h3>
-                    <p>Navigate to your project directory and copy the environment file:</p>
-                    <p style="margin-top: 1rem;">Generate an application key:</p>
-                    <div class="code-block">
-                        <code>php artisan key:generate</code>
-                    </div>
-                </div>
-
-
-                <div class="step">
-                    <h3>Run Migrations</h3>
-                    <p>Create the necessary database tables:</p>
-                    <div class="code-block">
-                        <code>php artisan migrate</code>
-                    </div>
-                </div>
-
-                <div class="step">
-                    <h3>Install Frontend Dependencies</h3>
-                    <p>Install Node.js packages and compile assets:</p>
-                    <div class="code-block">
-                        <code>npm install
-npm run dev</code>
-                    </div>
-                </div>
-
-                <div class="step">
-                    <h3>Start Development Server</h3>
-                    <p>Launch the built-in development server:</p>
-                    <div class="code-block">
-                        <code>php artisan serve</code>
-                    </div>
-                    <p style="margin-top: 1rem;">Your Laravel application will be available at <span class="highlight">http://localhost:8000</span></p>
-                </div>
+                <!-- ...existing code... -->
             </div>
         </div>
 
@@ -174,8 +109,6 @@ npm run dev</code>
         </div>
     </div>
 
-    <script>
-
-    </script>
+    <script></script>
 </body>
 </html>
